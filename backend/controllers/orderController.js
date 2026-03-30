@@ -9,7 +9,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 //config variables
 
 const deliveryCharge = 2;
-const frontend_URL = 'http://localhost:3000';
+const frontend_URL = 'https://food-app-p6ni.onrender.com';
 
 // Placing User Order for Frontend using stripe
  export const placeOrder = async (req, res) => {
